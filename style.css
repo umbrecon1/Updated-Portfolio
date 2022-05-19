@@ -41,7 +41,9 @@ nav {
     display: flex;
 
     border: solid 3px;
-    border-color: cyan;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to left, cyan, rgb(255,0,200));
+    border-radius: 10px;
     padding: 10px;
 }
 
@@ -95,6 +97,7 @@ main section {
     display: flex;
     margin: 20px 100px;
     justify-content: space-between;
+    font-size: 25px;
 }
 
 main section .title {
@@ -119,7 +122,9 @@ main section .content {
     margin: 10px;
     height: 200px;
     position: relative;
-    border:rgb(255, 0, 200) solid 5px;
+    border: solid 5px;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to left, cyan, rgb(255,0,200));
     border-radius: 10px;
     cursor: pointer;
 }
