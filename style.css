@@ -118,10 +118,10 @@ main section .content {
     flex: 1 0 300px;
     margin: 10px;
     height: 200px;
-    background-color: lightblue;
     position: relative;
     border:rgb(255, 0, 200) solid 5px;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .project.featured {
@@ -133,6 +133,7 @@ main section .content {
     left: 0px;
     bottom: 20px;
     background-color: rgb(255, 0, 200);
+    border-radius: 0 10px 10px 0;
     padding: 20px;
 }
 
